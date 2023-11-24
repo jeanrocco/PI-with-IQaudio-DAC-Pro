@@ -1,6 +1,5 @@
 # PI-with-IQaudio-DAC-Pro
-Play Spotify on a PI equipped with a IQaudio DAC Pro hat from any computer in your house.
-
+Play Spotify on a PI equipped with a IQaudio DAC Pro hat from any computer in your house, without the infamous Airplay(2) ...
 ###  On april 20, 2023:
   
   I just installed `Moode 8.3.1`, which comes with an Airplay2 renderer, on a `PI-3b 1.2` equipped with an `IQaudio DAC Pro` HAT. This allows my 2 old mid-2012 MACs, recently upgraded with the wonderfull `https://dortania.github.io/OpenCore-Legacy-Patcher/`, to `VENTURA 13.3.1` no less, to stream music with Airplay2. 
