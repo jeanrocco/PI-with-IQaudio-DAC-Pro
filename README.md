@@ -5,7 +5,7 @@ Play Spotify on a PI equipped with a IQaudio DAC Pro hat from any computer in yo
   
   I just installed `Moode 8.3.1`, which comes with an Airplay2 renderer, on a `PI-3b 1.2` equipped with an `IQaudio DAC Pro` HAT. This allows my 2 old mid-2012 MACs, recently upgraded with the wonderfull `https://dortania.github.io/OpenCore-Legacy-Patcher/`, to `VENTURA 13.3.1` no less, to stream music with Airplay2. 
   
-  [The push button and the led](https://github.com/jeanrocco/PI-shutdown-push-button/tree/master) work as before but in order to start the script at boot time you will have to add as root, at the end of  `/etc/rc.local`, and before `exit 0` : `(/home/pi/blink.py)&` as is, with the the brackets and all. I got this from `https://www.msldigital.com/pages/shutdown-scripts-for-moode-audio` .
+  [The push button to shutdown the PI and the led](https://github.com/jeanrocco/PI-shutdown-push-button/tree/master) work as before but in order to start the script at boot time you will have to add as root, at the end of  `/etc/rc.local`, and before `exit 0` : `(/home/pi/blink.py)&` as is, with the the brackets and all. Blink.py is [here](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/blink.py.github). I got this from `https://www.msldigital.com/pages/shutdown-scripts-for-moode-audio` .
 
 ### UPDATE Nov. 2023: This update greatly simplify the previous one...
 
