@@ -6,7 +6,7 @@ Play Spotify on a PI equipped with a IQaudio DAC Pro hat from any computer in yo
   
   [The push button to shutdown the PI and the led](https://github.com/jeanrocco/PI-shutdown-push-button/tree/master) work as before but in order to start the script at boot time you will have to add as root, at the end of  `/etc/rc.local`, and before `exit 0` : `(/home/pi/blink.py)&` as is, with the the brackets and all. Blink.py is [here](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/blink.py.github). I got this from `https://www.msldigital.com/pages/shutdown-scripts-for-moode-audio` .
 
-### UPDATE Nov. 2023: This update greatly simplify the previous setup ...
+### UPDATE Nov. 2023: This update greatly simplify the previous setup, mostly meaning getting rid of Airplay ...
 
   After some issues with the Airplay renderers, I found out a simpler, and most satisfying setup, based on Spotify's "connect to a device" feature, which allows to play tunes on the RPI IQaudio DAC, from another computer's browser.
   
