@@ -34,6 +34,8 @@ max_framebuffers=2
  Reboot your PI, and from any PC or MAC, access it with VNC, and start a Chromium session to connect to the "Spotify web server" URL. Once connected to Spotify, test if it's playing on the DAC, then you can close the VNC session to your PI, if you want to, but don't close the Spotify web page. 
  
  Then on any PC or MAC computer, from any browser, again connect to the "spotify web server" URL, and at the bottom right hand corner, click the "speaker box like icon" displaying "connect to a device" and click "web player (Chrome)" which is still running on your PI. From now on, any tunes you choose will be played on the Pi's DAC ... ain't that cute !
+
+ I'm using an ethernet cable for the PI to connect to my network, my WIFI isn't fast enough and I had stutters, UMMV.
  
  That's it, from any browser on any of your in house computer, you can now play music on the PI IQaudio DAC without the proprietary Airplays ...
 
