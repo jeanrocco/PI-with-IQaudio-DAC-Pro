@@ -11,7 +11,7 @@ Play Spotify on a PI equipped with a IQaudio DAC Pro hat from any computer in yo
 
   After some issues with the Airplay renderers, I found out a simpler, and most satisfying setup, based on Spotify's "connect to a device" feature, which allows to play tunes on the RPI IQaudio DAC, from another computer's browser.
   
-  First install the latest PI OS (cat /etc/issue => Raspbian GNU/Linux 11 \n \l) on your PI. To make sure the IQaudio DAC is the default audio player comment out `dtparam=audio=on`, add `dtoverlay=iqaudio-dacplus` and `dtoverlay=vc4-kms-v3d,noaudio` in `/boot/config.txt:` 
+  First install the latest PI OS on your PI. To make sure the IQaudio DAC is the default audio player comment out `dtparam=audio=on`, add `dtoverlay=iqaudio-dacplus` and `dtoverlay=vc4-kms-v3d,noaudio` in `/boot/config.txt:` 
 ```
 ...
 ...
