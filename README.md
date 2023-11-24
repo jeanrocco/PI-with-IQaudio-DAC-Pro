@@ -1,5 +1,5 @@
 # PI-with-IQaudio-DAC-Pro
-Play Spotify on a PI equipped with a IQaudio DAC Pro hat from any computer in your house, with a twist ...
+Play Spotify on a PI equipped with a IQaudio DAC Pro hat from any computer in your house.
 
 ###  On april 20, 2023:
   
