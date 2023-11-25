@@ -37,7 +37,7 @@ max_framebuffers=2
 
  I'm using an ethernet cable for the PI to connect to my network, my WIFI isn't fast enough and I had stutters, UMMV.
  
- That's it, from any browser on any of your in house computer, you can now play music on the PI IQaudio DAC without the proprietary Airplays ...
+ That's it, from any browser on any of your in house computer, you can now play music from gorgeous Spotify on the PI IQaudio DAC without the proprietary Airplays ...
 
  
   
