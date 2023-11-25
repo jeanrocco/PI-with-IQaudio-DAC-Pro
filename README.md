@@ -1,12 +1,12 @@
 # PI-with-IQaudio-DAC-Pro
 Play Spotify on a PI equipped with a IQaudio DAC Pro hat from any computer in your house, without the infamous Airplay(2) ...
-###  On april 20, 2023:
+###  It all started on april 20, 2023:
   
-  I just installed `Moode 8.3.1`, which comes with an Airplay2 renderer, on a `PI-3b 1.2` equipped with an `IQaudio DAC Pro` HAT. This allows my 2 old mid-2012 MACs, recently upgraded with the wonderfull `https://dortania.github.io/OpenCore-Legacy-Patcher/`, to `VENTURA 13.3.1` no less, to stream music with Airplay2. 
-  
-  [The push button to shutdown the PI and the led](https://github.com/jeanrocco/PI-shutdown-push-button/tree/master) work as before but in order to start the script at boot time you will have to add as root, at the end of  `/etc/rc.local`, and before `exit 0` : `(/home/pi/blink.py)&` as is, with the the brackets and all. Blink.py is [here](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/blink.py.github). I got this from `https://www.msldigital.com/pages/shutdown-scripts-for-moode-audio` .
+  I had just installed `Moode 8.3.1`, which comes with an Airplay2 renderer, on a `PI-3b 1.2` equipped with an `IQaudio DAC Pro` HAT. This was supposed to allow my 2 old mid-2012 MACs, recently upgraded with the wonderfull `https://dortania.github.io/OpenCore-Legacy-Patcher/`, to `VENTURA 13.3.1` no less, to stream music with Airplay2. The upgrade was justified by Airplay quitting unexpectedly on my older OSs. It felt like Apple was doing that on purpose with the older OS, but I'm not sure of that anymore, since I experienced Airplay's stutters and eventual shutdowns even with `VENTURA 13.3.1`.
 
-### UPDATE Nov. 2023: This update greatly simplify the previous setup, mostly meaning getting rid of Airplay ...
+  If you still want to try nice `Moode 8.3.1` anyway, [the push button to shutdown the PI and the led](https://github.com/jeanrocco/PI-shutdown-push-button/tree/master) work as before but in order to start the script at boot time you will have to add as root, at the end of  `/etc/rc.local`, and before `exit 0` : `(/home/pi/blink.py)&` as is, with the the parenthesis and the & symbol. . I got this from [`https://www.msldigital.com/pages/shutdown-scripts-for-moode-audio`](https://www.msldigital.com/pages/shutdown-scripts-for-moode-audio) . Blink.py is [here](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/blink.py.github) .
+
+### UPDATE Nov. 2023: This update greatly simplify the previous setup, mostly meaning getting rid of obnoxious Airplay ...
 
   After some issues with the Airplay renderers, I found out a simpler, and most satisfying setup, based on Spotify's "connect to a device" feature, which allows to play tunes on the RPI IQaudio DAC, from another computer's browser.
   
