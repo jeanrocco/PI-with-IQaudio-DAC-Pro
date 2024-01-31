@@ -35,7 +35,7 @@ One last thing, let's get rid of pulseaudio ... it breaks things ...
  
  `apt-get remove --purge pulseaudio`
  
- Reboot your PI, and from any PC or MAC, access it with VNC, and start a Chromium session to connect to the "Spotify web server" URL. Once connected to Spotify, test if it's playing on the DAC, then you can close the VNC session to your PI, if you want to, but don't close the Spotify web page. If you have no sound, type `alsamixer` and check that you have `Card: IQaudIODAC` as default `(pressing F6 and choosing - (default) always gives Card: IQaudIODAC)`.  
+ Reboot your PI, and from any PC or MAC, access it with [VNC](https://raspberrypi.stackexchange.com/a/145839/160241), and start a Chromium session to connect to the "Spotify web server" URL. Once connected to Spotify, test if it's playing on the DAC, then you can close the VNC session to your PI, if you want to, but don't close the Spotify web page. If you have no sound, type `alsamixer` and check that you have `Card: IQaudIODAC` as default `(pressing F6 and choosing - (default) always gives Card: IQaudIODAC)`.  
  
  Then on any PC or MAC computer, from any browser, again connect to the "spotify web server" URL, and at the bottom right hand corner, click the "speaker box like icon" displaying "connect to a device" and click "web player (Chrome)" which is still running on your PI. From now on, any tunes you choose will be played on the Pi's DAC ... ain't that cute !
 
